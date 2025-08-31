@@ -1,12 +1,23 @@
 {
   "name": "@skypro-web-developer/backend-02-template",
   "version": "1.0.0",
-  "description": "Шаблон для выполнения второго домашнего задания",
-  "private": true,
-  "main": "src/index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "dev": "",
-    "start": ""
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
-  "author": ""
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julia-M03/skypro-backend.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julia-M03/skypro-backend/issues"
+  },
+  "homepage": "https://github.com/Julia-M03/skypro-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
